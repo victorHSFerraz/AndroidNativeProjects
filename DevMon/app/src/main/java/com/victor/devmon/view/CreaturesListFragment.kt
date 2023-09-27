@@ -1,10 +1,11 @@
-package com.victor.devmon
+package com.victor.devmon.view
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import com.victor.devmon.R
 
 class CreaturesListFragment: Fragment() {
     override fun onCreateView(

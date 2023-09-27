@@ -1,9 +1,11 @@
-package com.victor.devmon
+package com.victor.devmon.view
 
 import android.os.Bundle
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.fragment.NavHostFragment
+import com.victor.devmon.viewmodel.NavigationViewModel
+import com.victor.devmon.R
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
