@@ -1,8 +1,11 @@
 package com.victor.devmon.model.repository
 
 import com.victor.devmon.model.domain.Creature
+import javax.inject.Inject
+import javax.inject.Singleton
 
-class CreatureRepository {
+@Singleton
+class CreaturesRepository @Inject constructor() {
     val creatures: List<Creature>
 
     init {
